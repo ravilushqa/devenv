@@ -27,6 +27,7 @@ cask "grammarly"
 cask "slack"
 cask "postman"
 brew "mongodb-compass"
+cask "telegram"
 
 # IDEs
 cask "jetbrains-toolbox"
