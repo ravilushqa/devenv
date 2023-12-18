@@ -19,27 +19,10 @@ Before applying this configuration, check it carefully and make sure it won't ca
 ```bash
 brew bundle --file ./Brewfile.work
 ```
-3. Install applications used for personal needs:
+
+### Powerlevel10k
+1. Make `powerlevel10k` theme default:
 ```bash
-brew bundle --file ./Brewfile.home
+echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
 ```
-
-### iTerm2 profile
-1. Profile -> Edit Profiles -> Other Actions -> Import JSON Profiles...
-2. Choose the file `iterm.default.profile.json` from this repo.
-
-### Fish
-1. Make `fish` the default shell:
-
-```bash
-echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
-chsh -s /opt/homebrew/bin/fish
-```
-
-2. Add fish paths and configs:
-
-```fish
-fish_add_path /opt/homebrew/bin
-```
-
 

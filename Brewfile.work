@@ -15,17 +15,7 @@ brew "git"
 brew "pre-commit"
 brew "jq"
 brew "htop"
-brew "zsh"
-brew "zsh-autosuggestions"
-brew "zsh-syntax-highlighting"
-brew "zsh-completions"
-
-# Note: Install oh-my-zsh manually after installing Zsh
-# sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# Note: Install Powerlevel10k manually after installing Zsh
-# git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-
+brew "powerlevel10k"
 
 # UI tools
 cask "arc"
